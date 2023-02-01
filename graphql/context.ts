@@ -7,8 +7,3 @@ export type Context = {
 }
 
 
-export async function createContext({req,res}) : Promise<Context>{
-  return{
-    prisma,
-  }
-}
